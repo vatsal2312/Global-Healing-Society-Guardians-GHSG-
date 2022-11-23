@@ -4,9 +4,9 @@ pragma solidity ^0.8.0;
 
 /// @author: manifold.xyz
 
-import "@openzeppelin/contracts/proxy/Proxy.sol";
-import "@openzeppelin/contracts/utils/Address.sol";
-import "@openzeppelin/contracts/utils/StorageSlot.sol";
+import "./Proxy.sol";
+import "./Addresses.sol";
+import "./StorageSlot.sol";
 
 contract ERC721Creator is Proxy {
 	
